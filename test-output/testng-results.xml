@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-20T17:42:55 EEST" name="Default suite" finished-at="2023-06-20T17:43:03 EEST" duration-ms="7281">
+    <groups>
+    </groups>
+    <test started-at="2023-06-20T17:42:55 EEST" name="Default test" finished-at="2023-06-20T17:43:03 EEST" duration-ms="7281">
+      <class name="curs12.SeleniumTest">
+        <test-method signature="openBrowser()[pri:0, instance:curs12.SeleniumTest@3e27aa33]" started-at="2023-06-20T17:42:55 EEST" name="openBrowser" finished-at="2023-06-20T17:43:03 EEST" duration-ms="7134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- curs12.SeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

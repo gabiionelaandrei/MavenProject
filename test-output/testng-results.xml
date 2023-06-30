@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-30T12:25:57 EEST" name="Default suite" finished-at="2023-06-30T12:26:12 EEST" duration-ms="15395">
+  <suite started-at="2023-06-30T17:50:01 EEST" name="Default suite" finished-at="2023-06-30T17:50:15 EEST" duration-ms="13204">
     <groups>
     </groups>
-    <test started-at="2023-06-30T12:25:57 EEST" name="Default test" finished-at="2023-06-30T12:26:12 EEST" duration-ms="15395">
-      <class name="homework.KeyBooksTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:homework.KeyBooksTest@33065d67]" started-at="2023-06-30T12:25:57 EEST" name="setup" finished-at="2023-06-30T12:26:08 EEST" duration-ms="10729" status="PASS">
+    <test started-at="2023-06-30T17:50:01 EEST" name="Default test" finished-at="2023-06-30T17:50:15 EEST" duration-ms="13204">
+      <class name="curs15.CssSelectors">
+        <test-method is-config="true" signature="setup()[pri:0, instance:curs15.CssSelectors@7bba5817]" started-at="2023-06-30T17:50:02 EEST" name="setup" finished-at="2023-06-30T17:50:09 EEST" duration-ms="7054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="elementeVizibile()[pri:1, instance:homework.KeyBooksTest@33065d67]" started-at="2023-06-30T12:26:08 EEST" name="elementeVizibile" finished-at="2023-06-30T12:26:08 EEST" duration-ms="160" status="PASS">
+        <test-method signature="cssSelector3()[pri:0, instance:curs15.CssSelectors@7bba5817]" started-at="2023-06-30T17:50:09 EEST" name="cssSelector3" finished-at="2023-06-30T17:50:09 EEST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elementeVizibile -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:homework.KeyBooksTest@33065d67]" started-at="2023-06-30T12:26:08 EEST" name="teardown" finished-at="2023-06-30T12:26:12 EEST" duration-ms="4392" status="PASS">
+        </test-method> <!-- cssSelector3 -->
+        <test-method signature="cssSelectors()[pri:0, instance:curs15.CssSelectors@7bba5817]" started-at="2023-06-30T17:50:09 EEST" name="cssSelectors" finished-at="2023-06-30T17:50:10 EEST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cssSelectors -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:curs15.CssSelectors@7bba5817]" started-at="2023-06-30T17:50:10 EEST" name="teardown" finished-at="2023-06-30T17:50:15 EEST" duration-ms="5087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- homework.KeyBooksTest -->
+      </class> <!-- curs15.CssSelectors -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

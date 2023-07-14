@@ -13,9 +13,10 @@ public WebDriver driver;
 	@BeforeClass
 	public void setup() {
 		
+		String url = "https://keybooks.ro/";
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();//maximizeaza fereastra browserului
-		driver.get("https://keybooks.ro/");
+		driver.get(url);
 		
 		
 	}

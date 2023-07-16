@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="homework.KeyBooksTest">
+      <class name="homework.TheForest">
         <methods>
           <include name="setup"/>
-          <include name="elementeVizibile"/>
+          <include name="bookCategories"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- homework.KeyBooksTest -->
+      </class> <!-- homework.TheForest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

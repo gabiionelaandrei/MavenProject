@@ -30,8 +30,8 @@ public class KeyBooksTest extends KeyBooksBrowserSetup{
 			
 			if(!(loginPopup.isDisplayed() &&passwordPopup.isDisplayed())) {
 				loginMenu.click();	
-			//	assertTrue(loginPopup.isDisplayed());
-				assertTrue(passwordPopup.isDisplayed());
+			assertTrue(loginPopup.isDisplayed());
+			assertTrue(passwordPopup.isDisplayed());
 			}
 			else{
 				System.out.println("Login user and passwords are not available");

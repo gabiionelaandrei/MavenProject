@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-16T14:27:47 EEST" name="Default suite" finished-at="2023-07-16T14:28:06 EEST" duration-ms="19459">
+  <suite started-at="2023-07-25T23:23:27 EEST" name="Default suite" finished-at="2023-07-25T23:23:49 EEST" duration-ms="22296">
     <groups>
     </groups>
-    <test started-at="2023-07-16T14:27:47 EEST" name="Default test" finished-at="2023-07-16T14:28:06 EEST" duration-ms="19459">
-      <class name="homework.TheForest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:homework.TheForest@33065d67]" started-at="2023-07-16T14:27:47 EEST" name="setup" finished-at="2023-07-16T14:28:01 EEST" duration-ms="13602" status="PASS">
+    <test started-at="2023-07-25T23:23:27 EEST" name="Default test" finished-at="2023-07-25T23:23:49 EEST" duration-ms="22296">
+      <class name="homework.TheStoryAboutMe">
+        <test-method is-config="true" signature="setup()[pri:0, instance:homework.TheStoryAboutMe@33065d67]" started-at="2023-07-25T23:23:27 EEST" name="setup" finished-at="2023-07-25T23:23:43 EEST" duration-ms="15690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bookCategories()[pri:1, instance:homework.TheForest@33065d67]" started-at="2023-07-16T14:28:01 EEST" name="bookCategories" finished-at="2023-07-16T14:28:01 EEST" duration-ms="726" status="PASS">
+        <test-method signature="findBook()[pri:0, instance:homework.TheStoryAboutMe@33065d67]" started-at="2023-07-25T23:23:43 EEST" name="findBook" finished-at="2023-07-25T23:23:44 EEST" duration-ms="1399" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookCategories -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:homework.TheForest@33065d67]" started-at="2023-07-16T14:28:01 EEST" name="teardown" finished-at="2023-07-16T14:28:06 EEST" duration-ms="4951" status="PASS">
+        </test-method> <!-- findBook -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:homework.TheStoryAboutMe@33065d67]" started-at="2023-07-25T23:23:44 EEST" name="teardown" finished-at="2023-07-25T23:23:49 EEST" duration-ms="5031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- homework.TheForest -->
+      </class> <!-- homework.TheStoryAboutMe -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

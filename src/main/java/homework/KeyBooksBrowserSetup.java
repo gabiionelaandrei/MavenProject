@@ -1,5 +1,7 @@
 package homework;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -15,6 +17,7 @@ public WebDriver driver;
 		
 		String url = "https://keybooks.ro/";
 		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();//maximizeaza fereastra browserului
 		driver.get(url);
 		

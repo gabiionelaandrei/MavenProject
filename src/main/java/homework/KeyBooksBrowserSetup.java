@@ -1,25 +1,21 @@
 package homework;
 import java.time.Duration;
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class KeyBooksBrowserSetup {
-
-
-public WebDriver driver;
+	
+	public WebDriver driver;
 	
 	@BeforeClass
 	public void setup() {
 		
-		String url = "https://keybooks.ro/";
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();//maximizeaza fereastra browserului
-		driver.get(url);
+		driver.get("https://keybooks.ro/");
 		
 		
 	}
@@ -30,4 +26,9 @@ public WebDriver driver;
 		
 		driver.quit();//inchide tot browserul cu toate taburile
 	}
+	
+	
+	
+	
+	
 }

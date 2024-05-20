@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="curs16.SoftVsHardAssertion">
+      <class name="curs17.ForestBook">
         <methods>
-          <include name="softAssertExample"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkForestBook"/>
         </methods>
-      </class> <!-- curs16.SoftVsHardAssertion -->
+      </class> <!-- curs17.ForestBook -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
